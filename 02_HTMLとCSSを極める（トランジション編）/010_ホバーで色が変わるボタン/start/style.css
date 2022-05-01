@@ -1,0 +1,23 @@
+@charset "UTF-8";
+#container {
+  text-align: center;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 40px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 50px 0;
+  /* 変わり方を指定 ★引数で様々なルールを指定できる */
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
